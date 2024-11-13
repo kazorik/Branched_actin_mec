@@ -44,7 +44,9 @@ lmp_mpi -v comprate 5000 -in in.boundary
 
 ## Output
 
-The simulation outputs files that track the deformation and relaxation state of the actin network at each strain step, enabling post-processing and analysis of the network's mechanical response under uniaxial deformation.
+The simulation outputs files are the configurations after each deformation and after each relaxation that track the deformation and relaxation state of the actin network at each strain step, enabling post-processing and analysis of the network's mechanical response under uniaxial deformation.
+The file __gstress_trace_XXX.d print out several observable such as the strain, stress tensor components, energy, etc. 
+
 
 ---
 
