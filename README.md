@@ -15,7 +15,7 @@ The simulation is run using LAMMPS with the following command:
 lmp_mpi -v comprate XXX -in in.boundary
 ```
 
-- **`comprate`**: A user-defined variable that sets the deformation rate. Replace `XXX` with a numeric value, typically `5000`, to control the strain rate of the deformation.
+- **`comprate`**: A user-defined variable that sets the deformation rate. This variable is inversely proportional to the rate (see the code for more information). Replace `XXX` with a numeric value, typically `5000`, to control the strain rate of the deformation.
 
 ### Input and Process
 
