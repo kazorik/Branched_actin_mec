@@ -6,7 +6,7 @@ This folder contains a LAMMPS simulation script for modeling a branched actin ne
 ## Files
 
 - **`in.boundary`**: LAMMPS input script that contains the simulation setup and deformation protocol.
-
+- **`cfg`**: contains many initial configirations produced at different prestrain amplitude.
 ## Usage
 
 The simulation is run using LAMMPS with the following command:
